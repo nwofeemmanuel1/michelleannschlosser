@@ -23,9 +23,9 @@ try {
 }
    document.querySelector("button").innerHTML="Success";
     clearForm()
-//    setTimeout(() => {
-//        window.location.href="/"
-//    },500);
+   setTimeout(() => {
+       window.location.href="/"
+   },500);
 
 } catch (error) {
     document.querySelector("#errMessage").innerHTML=error.message
