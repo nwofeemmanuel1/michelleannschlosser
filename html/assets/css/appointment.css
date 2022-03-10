@@ -121,6 +121,7 @@ button{
     text-align: center;
     margin: auto;
    border: 1px solid #142c8e;
+   cursor: pointer;
 }
 
 button:hover{
@@ -199,7 +200,7 @@ left: 0%;
     }
 
     textarea{
-        width: 87%;
+        width: 90%;
         background-color: transparent;
         border: 1px solid #fff;
 color: #fff;
