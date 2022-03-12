@@ -1,0 +1,160 @@
+.profile{
+    width:85%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.profile{
+    display: flex;
+
+}
+.profile-longtext{
+    width: 75%;
+    margin-right: 100px;
+}
+
+
+
+.plan-container{
+    width: 100%;
+   background-color: #131022;
+   color: #fff;
+}
+
+.plan{
+     width: 70%;
+   
+    margin: auto;
+}
+.flex-plan{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+   align-self: center;
+   justify-self: center;
+
+}
+article{
+    margin: auto;
+}
+.plan-represent-image{
+    width: 50%;
+}
+.plan-represent-image{
+    width: 100%;
+    margin: 20px;
+
+}
+.plan-represent-image img{
+    width: 100%;
+    margin: auto;
+}
+
+.label{
+    /* background-color: red; */
+    position: relative;
+    font-size: 8px;
+    bottom: 8px;
+}
+.label2{
+    /* background-color: red; */
+    position: relative;
+    font-size: 14px;
+    top: 10px;
+    float: right;
+}
+
+.ap-desc{
+    width: 80%;text-align: center; margin: auto;
+}
+
+
+
+
+.staying-on-track{
+    text-align: center;
+    margin: auto;
+    width: 90%;
+}
+.track-flex-description{
+    width: 90%;
+}
+
+.track-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.track-flex > div{
+    margin: 10px;
+    width: 33%;
+    text-align: left;
+}
+
+
+/* @media (max-width:400px) {
+    
+
+} */
+
+@media (max-width:800px) {
+    .profile{
+    display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+width: 90%;
+}
+.profile-longtext{
+  margin-right:0px;
+  margin-bottom: 40px;  
+}
+
+.plan{
+    width: 80%;
+}
+.flex-plan{
+    flex-wrap: wrap;
+}
+.plan-represent-image{
+    width: 100%;
+    margin: auto;
+}
+.plan-represent-image img{
+    width: 70%;
+    margin: auto;
+}
+
+.ap-desc{
+    width: 90%;text-align: center; margin: auto;
+}
+
+
+
+.staying-on-track{
+    text-align: center;
+    margin: auto;
+    width: 95%;
+}
+.track-flex-description{
+    width: 100%;
+}
+
+.track-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.track-flex > div{
+    margin: 5px;
+    width: 100%;
+    text-align: left;
+}
+
+
+
+}
