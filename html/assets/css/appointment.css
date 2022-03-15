@@ -167,6 +167,7 @@ a{
     padding: 9px;
 }
 
+
 @media (min-width:1050px) {
     .nametag{
         /* position: absolute;
@@ -232,6 +233,20 @@ font-size: 16px;
         background-color:transparent;
         color: #000;
     }
+
+    ::placeholder {
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #ffffff;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #ffffff;
+}
+
 
 }
 
