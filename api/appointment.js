@@ -25,7 +25,7 @@ auth: {
   let mailOptions={
     from:"michelleannschlloser@yahoo.com",
     // from:"michelleannschlloser@outlook.com",
-    to:"enwofe2020@gmail.com",
+    to:"support@michelleannschlosser.com",
   subject:`Request for an appointment from: ${req.body.email}`,
 //   text:"just wanna know if this works",
  html: `<h3 style="color: #fff; background-color: #5b5ef7; padding: 5px; text-align: center;">Request of appointment from: ${req.body.email}</h3>
